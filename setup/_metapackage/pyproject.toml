@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-oca-stock-logistics-interfaces"
+version = "18.0.20250516.0"
+dependencies = [
+    "odoo-addon-stock_vertical_lift_kardex==18.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 18.0",
+]
