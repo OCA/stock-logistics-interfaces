@@ -24,7 +24,7 @@
         "wizard/measuring_wizard.xml",
         "views/menu.xml",
     ],
-    "website": "https://github.com/OCA/stock-logistics-warehouse",
+    "website": "https://github.com/OCA/stock-logistics-interfaces",
     "installable": True,
     "development_status": "Alpha",
     "maintainers": ["gurneyalex"],
