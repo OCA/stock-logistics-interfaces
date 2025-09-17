@@ -23,7 +23,7 @@ class ZippcubeController(http.Controller):
         auth="none",
     )
     def measurement(self, zippcube_device_name):
-        data = request.jsonrequest
+        data = request.get_json_data()
         _logger.info(f"/measurement, data received: {data}")
 
         env = request.env(su=True)
@@ -39,9 +39,12 @@ class ZippcubeController(http.Controller):
         keys_missing = set(self.expected_keys) - set(data)
         keys_spurious = set(data) - set(self.expected_keys)
         if keys_missing or keys_spurious:
-            error_msg = _(
-                "Wrong data format: {}. Keys missing: {}, Unexpected keys: {}"
-            ).format(data, keys_missing, keys_spurious)
+            error_msg = env._(
+                "Wrong data format: %s. Keys missing: %s, Unexpected keys: %s",
+                data,
+                keys_missing,
+                keys_spurious,
+            )
             _logger.error(error_msg)
             raise ValueError(error_msg)
 
