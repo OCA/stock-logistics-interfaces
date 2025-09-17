@@ -26,6 +26,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [stock_measuring_device](stock_measuring_device/) | 18.0.1.0.0 | <a href='https://github.com/gurneyalex'><img src='https://github.com/gurneyalex.png' width='32' height='32' style='border-radius:50%;' alt='gurneyalex'/></a> | Implement a common interface for measuring and weighing devices
+[stock_measuring_device_zippcube](stock_measuring_device_zippcube/) | 18.0.1.0.0 | <a href='https://github.com/gurneyalex'><img src='https://github.com/gurneyalex.png' width='32' height='32' style='border-radius:50%;' alt='gurneyalex'/></a> | Implement interface with Bosche Zippcube devicesfor packaging measurement
 [stock_vertical_lift_kardex](stock_vertical_lift_kardex/) | 18.0.1.0.0 |  | Integrate with Kardex Remstar Vertical Lifts
 
 [//]: # (end addons)
