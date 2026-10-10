@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-10 06:58+0000\n"
+"PO-Revision-Date: 2026-10-10 09:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -25,13 +25,13 @@ msgstr "Tip naprave"
 #. module: stock_measuring_device_zippcube
 #: model:ir.model,name:stock_measuring_device_zippcube.model_measuring_device
 msgid "Measuring and Weighing Device"
-msgstr ""
+msgstr "Merilna in tehtalna naprava"
 
 #. module: stock_measuring_device_zippcube
 #. odoo-python
 #: code:addons/stock_measuring_device_zippcube/controllers/main.py:0
 msgid "No such Zippcube with name {}."
-msgstr ""
+msgstr "Naprava Zippcube z nazivom {} ne obstaja."
 
 #. module: stock_measuring_device_zippcube
 #: model:ir.model.fields,help:stock_measuring_device_zippcube.field_measuring_device__device_type
@@ -39,20 +39,22 @@ msgid ""
 "The type of device (e.g. zippcube, cubiscan...) depending on which module "
 "are installed."
 msgstr ""
+"Tip naprave (npr. zippcube, cubiscan ...), odvisno od nameščenih modulov."
 
 #. module: stock_measuring_device_zippcube
 #. odoo-python
 #: code:addons/stock_measuring_device_zippcube/controllers/main.py:0
 msgid "Wrong data format: %s. Keys missing: %s, Unexpected keys: %s"
 msgstr ""
+"Napačna oblika podatkov: %s. Manjkajoči ključi: %s, nepričakovani ključi: %s"
 
 #. module: stock_measuring_device_zippcube
 #. odoo-python
 #: code:addons/stock_measuring_device_zippcube/controllers/main.py:0
 msgid "ZIPPCUBE_SECRET is wrong or missing"
-msgstr ""
+msgstr "ZIPPCUBE_SECRET je napačen ali manjka"
 
 #. module: stock_measuring_device_zippcube
 #: model:ir.model.fields.selection,name:stock_measuring_device_zippcube.selection__measuring_device__device_type__zippcube
 msgid "Zippcube"
-msgstr ""
+msgstr "Zippcube"
