@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-10-10 06:56+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,52 +15,53 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard___barcode_scanned
 msgid "Barcode Scanned"
-msgstr ""
+msgstr "Črtna koda skenirana"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Cancel Scan"
-msgstr ""
+msgstr "Prekliči skeniranje"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Close"
-msgstr ""
+msgstr "Zaključi"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__create_uid
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__create_uid
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Ustvaril"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__create_date
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__create_date
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Ustvarjeno"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__device_id
 msgid "Device"
-msgstr ""
+msgstr "Naprava"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__device_type
 msgid "Device Type"
-msgstr ""
+msgstr "Tip naprave"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__display_name
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__display_name
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Prikazani naziv"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
@@ -74,14 +76,14 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__height
 msgid "Height (mm)"
-msgstr ""
+msgstr "Višina (mm)"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__id
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__id
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__is_measured
@@ -98,19 +100,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__write_uid
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zadnji posodobil"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__write_date
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__write_date
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zadnjič posodobljeno"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__packaging_length
 msgid "Length (mm)"
-msgstr ""
+msgstr "Dolžina (mm)"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__line_ids
@@ -153,7 +155,7 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__name
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields.selection,name:stock_measuring_device.selection__measuring_device__state__not_ready
@@ -163,7 +165,7 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__name
 msgid "Packaging"
-msgstr ""
+msgstr "Pakiranje"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__packaging_id
@@ -178,27 +180,27 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__product_id
 msgid "Product"
-msgstr ""
+msgstr "Proizvod"
 
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_product_packaging
 msgid "Product Packaging"
-msgstr ""
+msgstr "Pakiranje proizvoda"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__qty
 msgid "Quantity"
-msgstr ""
+msgstr "Količina"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields.selection,name:stock_measuring_device.selection__measuring_device__state__ready
 msgid "Ready"
-msgstr ""
+msgstr "Pripravljeno"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Refresh"
-msgstr ""
+msgstr "Osveži"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
@@ -208,12 +210,12 @@ msgstr ""
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Save"
-msgstr ""
+msgstr "Shrani"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Scan"
-msgstr ""
+msgstr "Skeniraj"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__scan_requested
@@ -223,12 +225,12 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Zaporedje"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__state
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,help:stock_measuring_device.field_product_packaging__measuring_device_id
@@ -256,34 +258,34 @@ msgstr ""
 #. module: stock_measuring_device
 #: model:ir.model.fields,help:stock_measuring_device.field_measuring_wizard___barcode_scanned
 msgid "Value of the last barcode scanned."
-msgstr ""
+msgstr "Vrednost zadnje skenirane črtne kode."
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__volume
 msgid "Volume (m³)"
-msgstr ""
+msgstr "Prostornina (m³)"
 
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_stock_warehouse
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__warehouse_id
 msgid "Warehouse"
-msgstr ""
+msgstr "Skladišče"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__weight
 msgid "Weight (kg)"
-msgstr ""
+msgstr "Masa (kg)"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__width
 msgid "Width (mm)"
-msgstr ""
+msgstr "Širina (mm)"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__wizard_id
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_device_form
 msgid "Wizard"
-msgstr ""
+msgstr "Čarovnik"
 
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_measuring_wizard
