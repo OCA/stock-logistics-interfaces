@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-10 06:57+0000\n"
+"PO-Revision-Date: 2026-10-10 09:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -24,6 +24,8 @@ msgid ""
 "Cell location %(loc)s has no position. Check if the dimensions of tray "
 "%(tray)s are properly set in the tray type."
 msgstr ""
+"Lokacija celice %(loc)s nima določenega položaja. Preverite, ali so mere "
+"pladnja %(tray)s pravilno nastavljene v tipu pladnja."
 
 #. module: stock_vertical_lift_kardex
 #: model:ir.model,name:stock_vertical_lift_kardex.model_stock_location
@@ -34,7 +36,7 @@ msgstr "Lokacije inventarja"
 #. odoo-python
 #: code:addons/stock_vertical_lift_kardex/models/stock_location.py:0
 msgid "Shuttle tray %s has no level. Please fix the configuration"
-msgstr ""
+msgstr "Pladenj dvigalnega modula %s nima določene ravni. Popravite nastavitve"
 
 #. module: stock_vertical_lift_kardex
 #: model:ir.model,name:stock_vertical_lift_kardex.model_vertical_lift_shuttle
