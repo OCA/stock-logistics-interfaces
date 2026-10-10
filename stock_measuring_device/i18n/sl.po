@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-10-10 06:56+0000\n"
+"PO-Revision-Date: 2026-10-10 09:46+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -66,12 +66,12 @@ msgstr "Prikazani naziv"
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Fullscreen"
-msgstr ""
+msgstr "Celozaslonski prikaz"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__barcode
 msgid "GTIN"
-msgstr ""
+msgstr "GTIN"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__height
@@ -88,12 +88,12 @@ msgstr "ID"
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__is_measured
 msgid "Is Measured"
-msgstr ""
+msgstr "Izmerjeno"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__is_unit_line
 msgid "Is Unit Line"
-msgstr ""
+msgstr "Vrstica za enoto"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__write_uid
@@ -117,40 +117,40 @@ msgstr "Dolžina (mm)"
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__line_ids
 msgid "Line"
-msgstr ""
+msgstr "Vrstica"
 
 #. module: stock_measuring_device
 #. odoo-python
 #: code:addons/stock_measuring_device/models/measuring_device.py:0
 msgid "Measurement Wizard"
-msgstr ""
+msgstr "Čarovnik za merjenje"
 
 #. module: stock_measuring_device
 #. odoo-python
 #: code:addons/stock_measuring_device/wizard/measuring_wizard_line.py:0
 msgid "Measurement machine already in use."
-msgstr ""
+msgstr "Merilna naprava je že v uporabi."
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_stock_warehouse__measuring_device_ids
 msgid "Measuring Device"
-msgstr ""
+msgstr "Merilna naprava"
 
 #. module: stock_measuring_device
 #: model:ir.actions.act_window,name:stock_measuring_device.action_measuring_device_form
 #: model:ir.ui.menu,name:stock_measuring_device.menu_measuring_device
 msgid "Measuring Devices"
-msgstr ""
+msgstr "Merilne naprave"
 
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_measuring_device
 msgid "Measuring and Weighing Device"
-msgstr ""
+msgstr "Merilna in tehtalna naprava"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_product_packaging__measuring_device_id
 msgid "Measuring device which will scan the package"
-msgstr ""
+msgstr "Merilna naprava, ki bo skenirala pakiranje"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_device__name
@@ -160,7 +160,7 @@ msgstr "Naziv"
 #. module: stock_measuring_device
 #: model:ir.model.fields.selection,name:stock_measuring_device.selection__measuring_device__state__not_ready
 msgid "Not Ready"
-msgstr ""
+msgstr "Ni pripravljeno"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__name
@@ -170,12 +170,12 @@ msgstr "Pakiranje"
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__packaging_id
 msgid "Packaging (rel)"
-msgstr ""
+msgstr "Pakiranje (povezava)"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__packaging_level_id
 msgid "Packaging Level"
-msgstr ""
+msgstr "Raven pakiranja"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard__product_id
@@ -205,7 +205,7 @@ msgstr "Osveži"
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
 msgid "Retrieve Product"
-msgstr ""
+msgstr "Pridobi proizvod"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_wizard
@@ -220,7 +220,7 @@ msgstr "Skeniraj"
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__scan_requested
 msgid "Scan Requested"
-msgstr ""
+msgstr "Skeniranje zahtevano"
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,field_description:stock_measuring_device.field_measuring_wizard_line__sequence
@@ -237,16 +237,18 @@ msgstr "Stanje"
 msgid ""
 "Technical field set when an operator uses the device to scan this package"
 msgstr ""
+"Tehnično polje, ki se nastavi, ko upravljavec uporabi napravo za skeniranje "
+"tega pakiranja"
 
 #. module: stock_measuring_device
 #: model_terms:ir.ui.view,arch_db:stock_measuring_device.view_measuring_device_form
 msgid "Test Device"
-msgstr ""
+msgstr "Preizkusi napravo"
 
 #. module: stock_measuring_device
 #: model:ir.model.constraint,message:stock_measuring_device.constraint_measuring_device_name_uniq
 msgid "The name of the measuring/weighing device must be unique."
-msgstr ""
+msgstr "Naziv merilne/tehtalne naprave mora biti edinstven."
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,help:stock_measuring_device.field_measuring_device__device_type
@@ -254,6 +256,7 @@ msgid ""
 "The type of device (e.g. zippcube, cubiscan...) depending on which module "
 "are installed."
 msgstr ""
+"Tip naprave (npr. zippcube, cubiscan ...), odvisno od nameščenih modulov."
 
 #. module: stock_measuring_device
 #: model:ir.model.fields,help:stock_measuring_device.field_measuring_wizard___barcode_scanned
@@ -290,9 +293,9 @@ msgstr "Čarovnik"
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_measuring_wizard
 msgid "measuring Wizard"
-msgstr ""
+msgstr "Čarovnik za merjenje"
 
 #. module: stock_measuring_device
 #: model:ir.model,name:stock_measuring_device.model_measuring_wizard_line
 msgid "measuring Wizard Line"
-msgstr ""
+msgstr "Vrstica čarovnika za merjenje"
